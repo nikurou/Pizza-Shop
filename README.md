@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Pizza Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A single page React application website that aims to clone Pizza Hut's website design ( as of 05/03/2021) with minor tweaks here and there.
+
+This project is merely for front-end practice and is not used for commercial means! I do not own the images used.
 
 ## Available Scripts
 
@@ -68,4 +70,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # Pizza-Shop
