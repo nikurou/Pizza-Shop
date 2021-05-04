@@ -4,6 +4,7 @@ import { Button, Menu, MenuItem, Paper } from "@material-ui/core";
 import Colors from "../constants/Color";
 import logo from "../assets/images/pizza_hut_logo.png";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
+import AccountCircleOutlinedIcon from "@material-ui/icons/AccountCircleOutlined";
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -25,8 +26,9 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "10%",
   },
   rightSide: {
-    width: "15%",
+    width: "12%",
     marginRight: "10%",
+    display: "flex",
   },
   button: {
     marginLeft: "2%",
@@ -34,6 +36,27 @@ const useStyles = makeStyles((theme) => ({
     "& :hover , &$focusVisible": {
       "&:hover $buttonLine": { backgroundColor: "red", width: 50 },
     },
+  },
+  signInButton: {
+    width: "100%",
+    "& $span": {
+      marginTop: 0,
+    },
+    "& :hover , &$focusVisible": {
+      "&:hover $buttonLine": { backgroundColor: "red", width: "100%" },
+    },
+  },
+  signInButtonTextContainer: {
+    display: "flex",
+    textAlign: "left",
+    flexDirection: "column",
+    "& $span": {
+      color: "red",
+      fontWeight: "bold",
+      fontSize: 11,
+      marginTop: 0,
+    },
+    "& $h4": { fontSize: 12, marginTop: 0 },
   },
   menuDropdown: {
     marginTop: "2%",
@@ -46,7 +69,15 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "black",
     position: "absolute",
     bottom: -2,
+    marginRight: "50%",
+    marginLeft: "50%",
     transition: "0.2s",
+  },
+  profileImage: {
+    marginRight: "5%",
+    height: "25%",
+    width: "25%",
+    marginBottom: 10,
   },
 }));
 
@@ -88,7 +119,14 @@ const Header = (props) => {
         </Menu>
       </div>
       <Paper className={classes.rightSide} elevation={6} square={true}>
-        test
+        <Button className={classes.signInButton}>
+          <AccountCircleOutlinedIcon className={classes.profileImage} />
+          <div className={classes.signInButtonTextContainer}>
+            <span>Hut Rewards</span>
+            <h4>Sign in/Join</h4>
+          </div>
+          <span className={classes.buttonLine} />
+        </Button>
       </Paper>
     </Paper>
   );
