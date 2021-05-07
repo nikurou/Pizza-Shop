@@ -9,7 +9,7 @@ import AccountCircleOutlinedIcon from "@material-ui/icons/AccountCircleOutlined"
 const useStyles = makeStyles((theme) => ({
   header: {
     height: "6.1%",
-    backgroundColor: Colors.primaryColor,
+    backgroundColor: Colors.backgroundSecondary,
     display: "flex",
     justifyContent: "space-between",
   },
@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "10%",
   },
   rightSide: {
+    backgroundColor: "#800000",
     width: "12%",
     marginRight: "10%",
     display: "flex",
@@ -34,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "2%",
     marginRight: "2%",
     "& :hover , &$focusVisible": {
-      "&:hover $buttonLine": { backgroundColor: "red", width: 50 },
+      "&:hover $buttonLine": { backgroundColor: "white", width: 50 },
     },
   },
   signInButton: {
@@ -43,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
       marginTop: 0,
     },
     "& :hover , &$focusVisible": {
-      "&:hover $buttonLine": { backgroundColor: "red", width: "100%" },
+      "&:hover $buttonLine": { backgroundColor: "white", width: "100%" },
     },
   },
   signInButtonTextContainer: {
@@ -72,6 +73,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "50%",
     marginLeft: "50%",
     transition: "0.2s",
+    color: "white",
   },
   profileImage: {
     marginRight: "5%",
@@ -96,7 +98,7 @@ const Header = (props) => {
   return (
     <Paper className={classes.header} elevation={4} square={true}>
       <div className={classes.leftSide}>
-        <img className={classes.logo} src={logo} />
+        <img className={classes.logo} src={logo} alt={"logo"} />
         <Button className={classes.button}>
           Deals <span className={classes.buttonLine} />
         </Button>
