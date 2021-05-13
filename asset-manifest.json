@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Pizza-Shop/static/css/main.9a86ba3b.chunk.css",
-    "main.js": "/Pizza-Shop/static/js/main.4f6334ea.chunk.js",
-    "main.js.map": "/Pizza-Shop/static/js/main.4f6334ea.chunk.js.map",
+    "main.js": "/Pizza-Shop/static/js/main.bcb752b9.chunk.js",
+    "main.js.map": "/Pizza-Shop/static/js/main.bcb752b9.chunk.js.map",
     "runtime-main.js": "/Pizza-Shop/static/js/runtime-main.034c4983.js",
     "runtime-main.js.map": "/Pizza-Shop/static/js/runtime-main.034c4983.js.map",
-    "static/js/2.4656a5f4.chunk.js": "/Pizza-Shop/static/js/2.4656a5f4.chunk.js",
-    "static/js/2.4656a5f4.chunk.js.map": "/Pizza-Shop/static/js/2.4656a5f4.chunk.js.map",
+    "static/js/2.2c5bda07.chunk.js": "/Pizza-Shop/static/js/2.2c5bda07.chunk.js",
+    "static/js/2.2c5bda07.chunk.js.map": "/Pizza-Shop/static/js/2.2c5bda07.chunk.js.map",
     "index.html": "/Pizza-Shop/index.html",
     "static/css/main.9a86ba3b.chunk.css.map": "/Pizza-Shop/static/css/main.9a86ba3b.chunk.css.map",
-    "static/js/2.4656a5f4.chunk.js.LICENSE.txt": "/Pizza-Shop/static/js/2.4656a5f4.chunk.js.LICENSE.txt",
+    "static/js/2.2c5bda07.chunk.js.LICENSE.txt": "/Pizza-Shop/static/js/2.2c5bda07.chunk.js.LICENSE.txt",
     "static/media/dessert.8ea3ddb6.jpg": "/Pizza-Shop/static/media/dessert.8ea3ddb6.jpg",
     "static/media/drinks.65aa7d5b.jpg": "/Pizza-Shop/static/media/drinks.65aa7d5b.jpg",
     "static/media/pasta.caed6736.jpg": "/Pizza-Shop/static/media/pasta.caed6736.jpg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.034c4983.js",
-    "static/js/2.4656a5f4.chunk.js",
+    "static/js/2.2c5bda07.chunk.js",
     "static/css/main.9a86ba3b.chunk.css",
-    "static/js/main.4f6334ea.chunk.js"
+    "static/js/main.bcb752b9.chunk.js"
   ]
 }
