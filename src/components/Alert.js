@@ -58,9 +58,14 @@ const Alert = ({ open, handleAlert }) => {
       </DialogTitle>
       <DialogContent>
         <DialogContentText classes={{ root: classes.root }}>
-          This website serves as a demo and is not connected to or affilaited
-          with any real business, and is meant to serve as a portfolio piece.
-          Parts of the website are intentionally non-functional!
+          A faithful recreation of Pizza Hut's landing page with various
+          creative liberties taken. This website serves as a demo and is not
+          connected to or affilaited with the real business, and is meant to
+          serve as a portfolio piece. Parts of the website are intentionally
+          non-functional.
+          <br />
+          <br />
+          Made with React and Material UI
           <br />
           <br />
           Source Code:

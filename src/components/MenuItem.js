@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
     "& :hover": {
       width: "110%",
       height: "110%",
+      cursor: "pointer",
     },
   },
   menuImage: {
@@ -44,7 +45,7 @@ const MenuItem = (props) => {
   const classes = useStyles();
 
   return (
-    <div className={classes.menuContainer}>
+    <div className={classes.menuContainer} onClick={() => console.log("lo")}>
       <img src={props.image} alt="item_image" />
       <div className={classes.menuTitle}>
         <h5>{props.itemName}</h5>
