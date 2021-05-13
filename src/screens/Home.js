@@ -1,11 +1,12 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Colors from "../constants/Color";
-import pizza_hero_banner from "../assets/images/pizza_hero_banner.jpg";
+import pizza_hero_banner from "../assets/images/pizza_hero_banner0.jpg";
 import { Button, Paper } from "@material-ui/core";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import ItemCard from "../components/ItemCard";
+import MenuItem from "../components/MenuItem";
 
 const useStyles = makeStyles((theme) => ({
   homeContainer: {
@@ -17,14 +18,15 @@ const useStyles = makeStyles((theme) => ({
   },
   heroBanner: {
     width: "100%",
-    height: "auto",
+    height: "400px",
   },
-  web2Widget: {
+  findStore: {
     marginLeft: "2%",
     marginRight: "2%",
     marginTop: "2%",
   },
   paperRoot: {
+    backgroundColor: Colors.backgroundSecondary,
     display: "flex",
     border: "1px solid red",
     borderRadius: "15px",
@@ -38,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     background: "lightgray",
   },
   buttonRoot: {
-    backgroundColor: Colors.redText,
+    backgroundColor: "black",
     height: "40px",
     width: "30%",
     color: "white",
@@ -51,8 +53,22 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "space-between",
     marginTop: "15px",
     "& a": { fontSize: "15px", color: Colors.redText, marginLeft: "15px" },
+    "& h1": { color: "white" },
   },
   dealCards: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    flexWrap: "wrap",
+  },
+  menuContainerTitle: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "space-between",
+    marginTop: "15px",
+    "& h1": { color: "white" },
+  },
+  menuCards: {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
@@ -69,7 +85,7 @@ const Home = (props) => {
         src={pizza_hero_banner}
         alt={"hero_banner"}
       />
-      <div className={classes.web2Widget}>
+      <div className={classes.findStore}>
         <Paper classes={{ root: classes.paperRoot }} elevation={5}>
           <h1>
             <LocationOnIcon />
@@ -95,6 +111,19 @@ const Home = (props) => {
           <ItemCard></ItemCard>
           <ItemCard></ItemCard>
           <ItemCard></ItemCard>
+        </div>
+      </div>
+      <div className={classes.menuContainer}>
+        <div className={classes.menuContainerTitle}>
+          <h1>MENU</h1>
+        </div>
+        <div className={classes.menuCards}>
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
         </div>
       </div>
     </div>
