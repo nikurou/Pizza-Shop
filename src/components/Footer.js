@@ -65,6 +65,9 @@ const useStyles = makeStyles((theme) => ({
       letterSpacing: "1px",
       fontWeight: "700",
     },
+    "& a": {
+      color: "white",
+    },
   },
   iconStyle: {
     color: "whitesmoke",
@@ -123,100 +126,100 @@ const Footer = (props) => {
         </div>
         <div className={classes.b1c234}>
           <p>MENU</p>
-          <Link to={`${match.url}/`}>
+          <Link to={`${match.url}`}>
             <a className={classes.link}>Pizza</a>
           </Link>
-          <Link to={`${match.url}/`}>
+          <Link to={`${match.url}`}>
             <a className={classes.link}>Wings</a>
           </Link>
-          <Link to={`${match.url}/`}>
+          <Link to={`${match.url}`}>
             <a className={classes.link}>Sides</a>
           </Link>
-          <Link to={`${match.url}/`}>
+          <Link to={`${match.url}`}>
             <a className={classes.link}>Pasta</a>
           </Link>
-          <Link to={`${match.url}/`}>
+          <Link to={`${match.url}`}>
             <a className={classes.link}>Desserts</a>
           </Link>
-          <Link to={`${match.url}/`}>
+          <Link to={`${match.url}`}>
             <a className={classes.link}>Drinks</a>
           </Link>
-          <Link to={`${match.url}/`}>
+          <Link to={`${match.url}`}>
             <a className={classes.link}> Deals </a>
           </Link>
-          <Link to={`${match.url}/`}>
+          <Link to={`${match.url}`}>
             <a className={classes.link}>Dipping sauces</a>
           </Link>
           <p>MY ACCOUNT</p>
-          <Link to={`${match.url}/`}>
+          <Link to={`${match.url}`}>
             <a className={classes.link}>Create an account</a>
           </Link>
-          <Link to={`${match.url}/`}>
+          <Link to={`${match.url}`}>
             <a className={classes.link}>Sign up</a>
           </Link>
         </div>
         <div className={classes.b1c234}>
           <p>CUSTOMER SERVICE</p>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>COVID-19 updates</a>
+          <Link to={`${match.url}`}>
+            <a>COVID-19 updates</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Contact us</a>
+          <Link to={`${match.url}`}>
+            <a>Contact us</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Find a Pizza Hut</a>
+          <Link to={`${match.url}`}>
+            <a>Find a Pizza Hut</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Restaurants by state</a>
+          <Link to={`${match.url}`}>
+            <a>Restaurants by state</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>FAQS</a>
+          <Link to={`${match.url}`}>
+            <a>FAQS</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Gift Cards</a>
+          <Link to={`${match.url}`}>
+            <a>Gift Cards</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Sitemap </a>
+          <Link to={`${match.url}`}>
+            <a>Sitemap </a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Español</a>
+          <Link to={`${match.url}`}>
+            <a>Español</a>
           </Link>
           <p>ABOUT OUR FOOD</p>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Restaurant quality food</a>
+          <Link to={`${match.url}`}>
+            <a>Restaurant quality food</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Nutrition</a>
+          <Link to={`${match.url}`}>
+            <a>Nutrition</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Gluten free</a>
+          <Link to={`${match.url}`}>
+            <a>Gluten free</a>
           </Link>
         </div>
         <div className={classes.b1c234}>
           <p>ABOUT US</p>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Our story</a>
+          <Link to={`${match.url}`}>
+            <a>Our story</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Hut Life blog</a>
+          <Link to={`${match.url}`}>
+            <a>Hut Life blog</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Careers</a>
+          <Link to={`${match.url}`}>
+            <a>Careers</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Catering</a>
+          <Link to={`${match.url}`}>
+            <a>Catering</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>International</a>
+          <Link to={`${match.url}`}>
+            <a>International</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Become a franchisee</a>
+          <Link to={`${match.url}`}>
+            <a>Become a franchisee</a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}> Community affairs support </a>
+          <Link to={`${match.url}`}>
+            <a> Community affairs support </a>
           </Link>
-          <Link to={`${match.url}/`}>
-            <a className={classes.link}>Supplier code</a>
+          <Link to={`${match.url}`}>
+            <a>Supplier code</a>
           </Link>
         </div>
       </div>
