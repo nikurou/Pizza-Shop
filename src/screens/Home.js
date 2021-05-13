@@ -7,6 +7,12 @@ import LocationOnIcon from "@material-ui/icons/LocationOn";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import ItemCard from "../components/ItemCard";
 import MenuItem from "../components/MenuItem";
+import pizza_image from "../assets/images/pizza.jpg";
+import wings_image from "../assets/images/wings.jpg";
+import sides_image from "../assets/images/sides.jpg";
+import pasta_image from "../assets/images/pasta.jpg";
+import dessert_image from "../assets/images/dessert.jpg";
+import drinks_image from "../assets/images/drinks.jpg";
 
 const useStyles = makeStyles((theme) => ({
   homeContainer: {
@@ -118,12 +124,12 @@ const Home = (props) => {
           <h1>MENU</h1>
         </div>
         <div className={classes.menuCards}>
-          <MenuItem />
-          <MenuItem />
-          <MenuItem />
-          <MenuItem />
-          <MenuItem />
-          <MenuItem />
+          <MenuItem itemName="Pizza" image={pizza_image} />
+          <MenuItem itemName="Wings" image={wings_image} />
+          <MenuItem itemName="Sides" image={sides_image} />
+          <MenuItem itemName="Pasta" image={pasta_image} />
+          <MenuItem itemName="Dessert" image={dessert_image} />
+          <MenuItem itemName="Drinks" image={drinks_image} />
         </div>
       </div>
     </div>
