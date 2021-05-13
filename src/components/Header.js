@@ -8,7 +8,7 @@ import AccountCircleOutlinedIcon from "@material-ui/icons/AccountCircleOutlined"
 
 const useStyles = makeStyles((theme) => ({
   header: {
-    height: "6.1%",
+    maxHeight: "6.1%",
     backgroundColor: Colors.backgroundSecondary,
     display: "flex",
     justifyContent: "space-between",
