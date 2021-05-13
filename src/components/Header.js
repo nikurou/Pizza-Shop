@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Button, Menu, MenuItem, Paper } from "@material-ui/core";
+import { Button, colors, Menu, MenuItem, Paper } from "@material-ui/core";
 import Colors from "../constants/Color";
 import logo from "../assets/images/pizza_hut_logo.png";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
@@ -34,8 +34,12 @@ const useStyles = makeStyles((theme) => ({
   button: {
     marginLeft: "2%",
     marginRight: "2%",
+    color: colors.blackText,
+    transition: "0.2s",
+    fontWeight: "bold",
     "& :hover , &$focusVisible": {
       "&:hover $buttonLine": { backgroundColor: "white", width: 50 },
+      color: "white",
     },
   },
   signInButton: {
@@ -52,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "left",
     flexDirection: "column",
     "& $span": {
-      color: "red",
+      color: "whitesmoke",
       fontWeight: "bold",
       fontSize: 11,
       marginTop: 0,

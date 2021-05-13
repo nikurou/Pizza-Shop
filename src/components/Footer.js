@@ -33,9 +33,10 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     flex: 5,
     marginBottom: "10%",
+
     "& $h2": {
       fontSize: "28px",
-      color: Colors.blackText,
+      color: "whitesmoke",
       marginBottom: "12px",
       lineHeight: "1.14",
       fontFamily: "PHFont",
@@ -58,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "20px",
     "& $p": {
       fontSize: "12px",
-      color: Colors.blackText,
+      color: Colors.redText,
       marginBottom: "3px",
       lineHeight: "1.5",
       letterSpacing: "1px",
@@ -66,7 +67,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   iconStyle: {
-    color: Colors.blackText,
+    color: "whitesmoke",
     marginRight: 5,
   },
   iconRow: {
@@ -80,7 +81,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "18px",
     "& $p": {
       fontSize: "12px",
-      color: Colors.blackText,
+      color: "whitesmoke",
     },
   },
   footerBottom: {
@@ -89,7 +90,7 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "30px",
     "& $p": {
       fontSize: "12px",
-      color: Colors.blackText,
+      color: "whitesmoke",
       lineHeight: "20px",
     },
   },
