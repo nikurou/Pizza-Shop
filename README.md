@@ -12,7 +12,9 @@ Visit the demo here: https://nikurou.github.io/Pizza-Shop/
 
 <p align = "center">
  <img src = "src\assets\images\demo_image_1.png" alt = "front">
+ <img src = "src\assets\images\demo_image_2.png" alt = "bottom">
 </p>
+
 ## Available Scripts
 
 In the project directory, you can run:
