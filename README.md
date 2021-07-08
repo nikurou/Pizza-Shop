@@ -11,7 +11,7 @@ Visit the demo here: https://nikurou.github.io/Pizza-Shop/
 ## Illustrations 
 
 <p align = "center">
- <img src = "assets\images\demo_image_1.png" alt = "front">
+ <img src = "src\assets\images\demo_image_1.png" alt = "front">
 </p>
 ## Available Scripts
 
