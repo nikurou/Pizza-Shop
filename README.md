@@ -10,9 +10,9 @@ Visit the demo here: https://nikurou.github.io/Pizza-Shop/
 
 ## Illustrations 
 
-![FrontPage](src\assets\images\demo_image_1.png)
-
-
+<p align = "center">
+ <img src = "assets\images\demo_image_1.png" alt = "front">
+</p>
 ## Available Scripts
 
 In the project directory, you can run:
